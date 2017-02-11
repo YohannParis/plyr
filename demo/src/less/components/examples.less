@@ -2,11 +2,6 @@
 // Examples
 // ==========================================================================
 
-section {
-    margin: 0 auto @padding-base;
-    max-width: @example-width-video;
-}
-
 // For non supported browsers
 video {
     max-width: 100%;
@@ -21,7 +16,7 @@ video {
 .plyr--audio {
     max-width: @example-width-audio;
 }
-.plyr--video::after {
+.plyr__video-wrapper::after {
     content: "";
     pointer-events: none;
     position: absolute;
